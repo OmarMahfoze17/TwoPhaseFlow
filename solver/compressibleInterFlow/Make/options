@@ -1,4 +1,6 @@
+include $(GENERAL_RULES)/mpi-MUI-rules
 EXE_INC = \
+     $(PINC) $(PFLAGS) \
     -I. \
     -I$(LIB_SRC)/transportModels/compressible/lnInclude \
     -I$(LIB_SRC)/thermophysicalModels/basic/lnInclude \

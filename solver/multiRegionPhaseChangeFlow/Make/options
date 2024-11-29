@@ -1,5 +1,7 @@
 
+include $(GENERAL_RULES)/mpi-MUI-rules
 EXE_INC = \
+     $(PINC) $(PFLAGS) \
     -I. \
     -I./fluid \
     -I./solid \
