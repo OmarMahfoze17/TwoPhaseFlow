@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
             {
                 scalar timeBeforeMeshUpdate = runTime.elapsedCpuTime();
 
-                advector->surf().reconstruct();
+                //advector->surf().reconstruct();
 
                 mesh.update();
 
